@@ -12,7 +12,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        {/*<Fade bottom duration={1000} delay={800} distance="30px">
+        <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || ''}
@@ -26,7 +26,7 @@ const Contact = () => {
               {btn || "Let's Talk"}
             </a>
           </div>
-        </Fade>*/}
+        </Fade>
       </Container>
     </section>
   );
