@@ -25,8 +25,8 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
-        <Row className="about-wrapper">
+        <Title title="About" />
+        {/*<Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
@@ -63,7 +63,7 @@ const About = () => {
               </div>
             </Fade>
           </Col>
-        </Row>
+                </Row>*/}
       </Container>
     </section>
   );
